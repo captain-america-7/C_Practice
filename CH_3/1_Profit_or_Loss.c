@@ -1,6 +1,5 @@
 /* Aruntej [21046] */
 #include <stdio.h>
-#include <conio.h>
 int main()
 {
     float cost_price, selling_price, loss, profit;
@@ -14,11 +13,11 @@ int main()
     if (cost_price > selling_price)
     {
         loss = cost_price - selling_price;
-        printf("\n The seller has suffered the loss.The loss is=%f", loss);
+        printf("\n The seller has suffered the loss.The loss is=%0.2f", loss);
     }
     else
     {
         profit = selling_price - cost_price;
-        printf("\n The seller has gain the profit.The profit is=%f", profit);
+        printf("\n The seller has gain the profit.The profit is=%0.2f", profit);
     }
 }
