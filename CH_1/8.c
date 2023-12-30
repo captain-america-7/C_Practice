@@ -1,7 +1,3 @@
-/*Calculate of average
-/* Author: Sanjay */
-/* Place - Whispering Bytes */
-*/
 #include <stdio.h>
     int main()
 {
